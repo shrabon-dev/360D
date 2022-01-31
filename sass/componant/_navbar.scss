@@ -1,0 +1,96 @@
+nav{
+    .navbar-brand{
+        @include small{
+            width: 50%;
+        }
+    }
+    .navbar-toggler{
+        &:focus{
+            @include small{
+                outline: none;
+                box-shadow: none;
+            }
+           .navbar-toggler-icon{ 
+               @include small{ 
+                   color: #ffffff !important;
+    
+            }
+        }
+        }
+
+           
+    
+}
+    a{
+        img{
+            width: 50%;
+        }
+
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #414141;
+        margin: 0 5px;
+    }
+    ul{
+        @include small{ 
+        background: #ffffff !important;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 15px;
+        }
+        @include midium{ 
+            background: #ffffff !important;
+            text-align: center;
+            padding: 25px 0;
+            border-radius: 15px;
+            }
+            @include max-midium{ 
+                background: #ffffff !important;
+                text-align: center;
+                padding: 25px 0;
+                border-radius: 15px;
+                }
+        li{
+            a{
+                font-family: 'Nunito', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color: #414141;
+                margin: 0 5px;
+                transition: .4s all ease-in-out;
+                -webkit-transition: .4s all ease-in-out;
+                -moz-transition: .4s all ease-in-out;
+                -ms-transition: .4s all ease-in-out;
+                -o-transition: .4s all ease-in-out;
+                &:hover{
+                    color: #14804D;
+                    @include small{
+                        color:  #002715 !important;
+    
+                    }
+                    @include midium{
+                        color:  #002715 !important;
+    
+                    }
+                    @include max-midium{
+                        color:  #002715 !important;
+    
+                    }
+                }
+                @include small{
+                    color:  #14804D !important;
+
+                }
+                @include midium{
+                    color:  #14804D !important;
+
+                }
+                @include max-midium{
+                    color:  #14804D !important;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+header{
+    background: #14804D;
+    padding: 10px 0;
+    @include max-midium{
+        position: relative;
+    }
+    .social__icon{
+        .icon{
+            display: inline-block;
+            a{
+                display: inline-block;
+                color: #e6e6e6;
+                margin: 0 5px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                background: #157046;
+                box-shadow:inset 0 0 4px 0 #2e2e2e;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                transition: .4s all ease-in-out;
+                -webkit-transition: .4s all ease-in-out;
+                -moz-transition: .4s all ease-in-out;
+                -ms-transition: .4s all ease-in-out;
+                -o-transition: .4s all ease-in-out;
+                &:hover
+                {
+                    color: #00d170;
+                }
+                @include small{
+                    width: 26px;
+                    height: 26px;
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin: 0 2px;
+
+                }
+             }         
+        }
+        form{
+            display: inline-block;
+            position: relative;
+            margin-left: 35px;
+            top: -4px;
+            @include small{
+                display: inline-block;
+                margin-left: 5px;
+                width: 52%;
+            }
+            @include midium{
+                margin-left: 20px;
+            }
+            @include max-midium{
+                margin-left: 20px;
+                width: 27%;
+            }
+            @include large{
+                margin-left: 20px;
+                width: 27%;
+            }
+            @include extra-large{
+                margin-left: 20px;
+                width: 27%;
+            }
+            label{
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                border-right: 1px solid #d4d4d4ad;
+                padding-right: 5px;
+                color: #d4d4d4ad;
+}
+            input{
+                width: 400px;
+                height: 40px;
+                border: 1px solid #157046;
+                font-family: 'Nunito', sans-serif;
+                color: #e6e6e6;
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 35px;
+                background: #157046;
+                box-shadow:inset 0 0 4px 0 #2e2e2e;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                @include small{
+                    width: 100%;
+                }
+                @include midium{
+                    width: 130%;
+                }
+                &:focus{
+                    outline: none;
+                }
+               
+            }
+        }
+    }
+    .login__option{
+        text-align: right;
+        @include small{
+            text-align: left;
+            position: relative;
+            margin-top: 8px;
+        }
+        @include midium{
+            text-align: left;
+            position: relative;
+            margin-top: 8px;
+        }
+        @include max-midium{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        a{
+            font-family: 'Nunito', sans-serif;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 2px;
+
+            background: #157046;
+            box-shadow:inset 0 0 4px 0 #2e2e2e;
+            padding: 5px 10px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            transition: .4s all ease-in-out;
+            -webkit-transition: .4s all ease-in-out;
+            -moz-transition: .4s all ease-in-out;
+            -ms-transition: .4s all ease-in-out;
+            -o-transition: .4s all ease-in-out;
+            &:hover{
+                color: #00ff88;
+            }
+            &:nth-child(1){
+                @include small{
+                    border: none;
+                    margin-right: 60%;
+                }
+                @include midium{
+                    border: none;
+                    margin-right: 60%;
+                    padding-right: 10px;
+                }
+            }
+            &:nth-child(2){
+                
+                @include small{
+                    position: absolute;
+                    top: 0;
+                    right: 5%;
+
+                }
+                @include midium{
+                    position: absolute;
+                    top: 0;
+                    right: 5%;
+
+                }
+            }
+            @include small{
+                background: #157046;
+                box-shadow:inset 0 0 4px 0 #2e2e2e;
+                padding: 2px 5px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+
+            }
+            @include midium{
+                background: #157046;
+                box-shadow:inset 0 0 4px 0 #2e2e2e;
+                padding: 5px 10px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+
+            }
+        }
+    }
+}
